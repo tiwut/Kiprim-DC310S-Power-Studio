@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e38"/>
+      <stop offset="100%" stop-color="#181a20"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e1117"/>
+      <stop offset="100%" stop-color="#151922"/>
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3584e4"/>
+      <stop offset="100%" stop-color="#33d17a"/>
+    </linearGradient>
+    <linearGradient id="knobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#484f5c"/>
+      <stop offset="100%" stop-color="#252932"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chassis Outer -->
+  <rect x="14" y="18" width="100" height="92" rx="14" fill="url(#bodyGrad)" stroke="#3d4452" stroke-width="2"/>
+
+  <!-- Screen Bezel -->
+  <rect x="22" y="26" width="84" height="48" rx="8" fill="url(#screenGrad)" stroke="#1a1e27" stroke-width="1.5"/>
+
+  <!-- Screen Grid Lines -->
+  <line x1="22" y1="42" x2="106" y2="42" stroke="#252c3d" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <line x1="22" y1="58" x2="106" y2="58" stroke="#252c3d" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <line x1="64" y1="26" x2="64" y2="74" stroke="#252c3d" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+  <!-- Waveform curves on screen -->
+  <path d="M 24 64 Q 38 32, 54 48 T 84 38 T 104 50" fill="none" stroke="#3584e4" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 24 68 Q 42 66, 60 56 T 90 62 T 104 60" fill="none" stroke="#f6d32d" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Readout text -->
+  <text x="28" y="38" font-family="monospace" font-size="9" font-weight="bold" fill="#3584e4">12.000V</text>
+  <text x="74" y="38" font-family="monospace" font-size="9" font-weight="bold" fill="#f6d32d">2.000A</text>
+
+  <!-- Control Knobs / Terminals -->
+  <!-- Positive Red Terminal -->
+  <circle cx="36" cy="90" r="9" fill="#c01c28" stroke="#e01b24" stroke-width="1.5"/>
+  <circle cx="36" cy="90" r="4" fill="#62080f"/>
+
+  <!-- Ground Green Terminal -->
+  <circle cx="64" cy="90" r="9" fill="#26a269" stroke="#33d17a" stroke-width="1.5"/>
+  <circle cx="64" cy="90" r="4" fill="#0f4b2d"/>
+
+  <!-- Negative Black Terminal -->
+  <circle cx="92" cy="90" r="9" fill="#242424" stroke="#484848" stroke-width="1.5"/>
+  <circle cx="92" cy="90" r="4" fill="#111111"/>
+
+  <!-- Power Status LED (Glowing Cyan/Green) -->
+  <circle cx="100" cy="24" r="3" fill="#33d17a"/>
+  <circle cx="100" cy="24" r="5" fill="none" stroke="#33d17a" stroke-opacity="0.4" stroke-width="1.5"/>
+</svg>

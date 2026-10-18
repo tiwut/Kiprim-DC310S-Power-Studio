@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kiprim Power Studio
+Comment=Modern GNOME Control Software for Kiprim DC310S / Owon SPE Series DC Power Supplies
+Exec=kiprim-control
+Icon=org.kiprim.dc310s
+Terminal=false
+Type=Application
+Categories=Development;Engineering;Electronics;
+Keywords=power;supply;kiprim;dc310s;owon;scpi;electronics;
+StartupNotify=true

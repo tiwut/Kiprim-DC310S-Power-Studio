@@ -1,0 +1,161 @@
+/* Modern Adwaita styling for Kiprim Power Studio */
+
+.hero-display {
+    background: alpha(@theme_base_color, 0.6);
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid alpha(@theme_fg_color, 0.1);
+}
+
+.meter-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: alpha(@theme_fg_color, 0.6);
+}
+
+.meter-value-v {
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Adwaita Mono', 'Fira Code', 'JetBrains Mono', 'Monospace', monospace;
+    color: #3584e4;
+    letter-spacing: -0.5px;
+}
+
+.meter-value-i {
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Adwaita Mono', 'Fira Code', 'JetBrains Mono', 'Monospace', monospace;
+    color: #f6d32d;
+    letter-spacing: -0.5px;
+}
+
+.meter-value-p {
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Adwaita Mono', 'Fira Code', 'JetBrains Mono', 'Monospace', monospace;
+    color: #33d17a;
+    letter-spacing: -0.5px;
+}
+
+.meter-unit {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 4px;
+    color: alpha(@theme_fg_color, 0.7);
+}
+
+/* Status Badges */
+.badge-cv {
+    background-color: alpha(#33d17a, 0.2);
+    color: #33d17a;
+    border: 1px solid alpha(#33d17a, 0.4);
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.badge-cc {
+    background-color: alpha(#ff7800, 0.2);
+    color: #ff7800;
+    border: 1px solid alpha(#ff7800, 0.4);
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.badge-connected {
+    background-color: alpha(#33d17a, 0.15);
+    color: #33d17a;
+    border: 1px solid alpha(#33d17a, 0.3);
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.badge-simulated {
+    background-color: alpha(#9141ac, 0.15);
+    color: #c061cb;
+    border: 1px solid alpha(#9141ac, 0.3);
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.badge-disconnected {
+    background-color: alpha(@theme_fg_color, 0.08);
+    color: alpha(@theme_fg_color, 0.5);
+    border: 1px solid alpha(@theme_fg_color, 0.15);
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Big Output Button */
+.btn-output-off {
+    background-color: alpha(@theme_fg_color, 0.07);
+    color: alpha(@theme_fg_color, 0.85);
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 14px 24px;
+    border: 1px solid alpha(@theme_fg_color, 0.15);
+}
+
+.btn-output-off:hover {
+    background-color: alpha(@theme_fg_color, 0.12);
+}
+
+.btn-output-on {
+    background: linear-gradient(135deg, #2ec27e, #26a269);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 14px 24px;
+    box-shadow: 0 0 16px alpha(#33d17a, 0.45);
+    border: 1px solid alpha(#ffffff, 0.2);
+}
+
+.btn-output-on:hover {
+    background: linear-gradient(135deg, #33d17a, #2ec27e);
+    box-shadow: 0 0 22px alpha(#33d17a, 0.65);
+}
+
+/* Preset buttons */
+.btn-preset {
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+.btn-step {
+    font-weight: 600;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+/* Terminal */
+.scpi-terminal {
+    font-family: 'Adwaita Mono', 'Fira Code', 'Monospace', monospace;
+    font-size: 12px;
+    background-color: #121316;
+    color: #33d17a;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Stats Pill */
+.stats-badge {
+    background-color: alpha(@theme_fg_color, 0.05);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: 'Adwaita Mono', 'Monospace', monospace;
+}
