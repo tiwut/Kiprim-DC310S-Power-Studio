@@ -4,11 +4,13 @@ A high-performance, native **GNOME / GTK4 + Libadwaita** desktop application for
 
 Written in modern **C++20** with low memory footprint, instant startup, and zero runtime garbage collection pauses.
 
+<img width="1126" height="770" alt="image" src="https://github.com/user-attachments/assets/917423c6-a57c-4b0e-acfe-214e7953e2d1" />
+
 ---
 
 ## Features
 
-### ⚡ Comprehensive Power Supply Control
+### Comprehensive Power Supply Control
 * **Main Output Toggle**: High-visibility glowing power switch with live status badge (`STANDBY` vs `ACTIVE`).
 * **Target Voltage Control**: 0.000 V to 31.000 V (1 mV precision) with numeric spin entry, smooth range slider, and fine/coarse steppers (`-1V`, `-0.1V`, `-0.01V`, `+0.01V`, `+0.1V`, `+1V`).
 * **Current Limit Control**: 0.000 A to 10.000 A (1 mA precision) with numeric spin entry, smooth slider, and steppers (`-1A`, `-0.1A`, `-0.01A`, `+0.01A`, `+0.1A`, `+1A`).
@@ -25,7 +27,7 @@ Written in modern **C++20** with low memory footprint, instant startup, and zero
 
 ---
 
-### 📈 Modern Multi-Channel Oscilloscope & Waveform Graphs
+### Modern Multi-Channel Oscilloscope & Waveform Graphs
 * **Hardware-Accelerated Cairo 2D Vector Rendering**:
   * **Voltage Curve (V)**: Cyan / Electric Blue trace with gradient glow.
   * **Current Curve (A)**: Vibrant Amber / Gold trace with fill.
@@ -39,7 +41,7 @@ Written in modern **C++20** with low memory footprint, instant startup, and zero
 
 ---
 
-### ⏱️ Automated Sequence / List Mode (Dwell Testing)
+### Automated Sequence / List Mode (Dwell Testing)
 * Multi-step automated test profile runner with customizable dwell durations per step.
 * **Cycle Controls**: Single run, $N$ loops, or continuous infinite repeat.
 * **Live Visual Progress**: Animated step countdown bar and active step status.
@@ -51,14 +53,14 @@ Written in modern **C++20** with low memory footprint, instant startup, and zero
 
 ---
 
-### 📝 Continuous CSV Data Logger
+### Continuous CSV Data Logger
 * Background measurement logging with customizable sampling rates (`100ms`, `250ms`, `500ms`, `1s`, `2s`).
 * Formatted CSV export including ISO8601 timestamps, elapsed seconds, setpoints, measured values, power, energy, output state, and regulation mode.
 * Real-time metrics on written samples, elapsed recording duration, and file size.
 
 ---
 
-### ⚙️ Diagnostics, Safety & SCPI Console
+### Diagnostics, Safety & SCPI Console
 * **Auto-Detection**: Scans `/dev/ttyUSB*` and `/dev/ttyACM*` serial devices (specifically identifying QinHeng CH340 / Kiprim DC310S hardware).
 * **Front-Panel Keypad Lock**: Remotely lock front-panel knobs/buttons via `SYST:LOCK`.
 * **Safe Shutdown on Exit**: Automatically disables output terminals upon closing application.
