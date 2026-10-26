@@ -4,7 +4,7 @@ A high-performance, native **GNOME / GTK4 + Libadwaita** desktop application for
 
 Written in modern **C++20** with low memory footprint, instant startup, and zero runtime garbage collection pauses.
 
-<img width="1126" height="770" alt="image" src="https://github.com/user-attachments/assets/917423c6-a57c-4b0e-acfe-214e7953e2d1" />
+<img width="1130" height="770" alt="image" src="https://github.com/user-attachments/assets/cf76f990-8670-4a5d-a36d-7386b1d65eec" />
 
 ---
 
